@@ -17,7 +17,6 @@ const App = () => {
     const result = await fetch(
       "https://unit-test-generator-backend-production.up.railway.app/",
       {
-        mode: "no-cors",
         body: JSON.stringify({ code }),
         headers: {
           "Content-Type": "application/json",
